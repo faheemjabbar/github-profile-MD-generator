@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile README Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Profile README Generator</h1>
+
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+
+        <label for="bioInput">Bio:</label>
+        <textarea id="bioInput" placeholder="Enter your bio"></textarea>
+
+        <label for="skillsInput">Skills (comma-separated):</label>
+        <input type="text" id="skillsInput" placeholder="JavaScript, Python, React">
+
+        <label for="projectsInput">Projects (one per line: Name - Description - Link):</label>
+        <textarea id="projectsInput" placeholder="Project Name - Description - https://github.com/yourrepo"></textarea>
+
+        <label for="githubUsernameInput">GitHub Username:</label>
+        <input type="text" id="githubUsernameInput" placeholder="your-github-username">
+
+        <label for="linkedinUsernameInput">LinkedIn Username:</label>
+        <input type="text" id="linkedinUsernameInput" placeholder="your-linkedin-username">
+
+        <label for="twitterUsernameInput">Twitter Username:</label>
+        <input type="text" id="twitterUsernameInput" placeholder="your-twitter-username">
+
+        <button id="generateBtn">Generate README</button>
+
+        <h2>Preview:</h2>
+        <pre id="previewArea"></pre>
+
+        <button id="copy">Copy Markdown</button>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

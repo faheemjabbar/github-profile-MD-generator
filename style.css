@@ -1,0 +1,86 @@
+/* Default Dark Mode */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container for Centering */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Form Section */
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Increased gap for better spacing */
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    margin-top: 15px; /* Space between labels */
+}
+
+/* Input and Textarea Styles */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Button Styles */
+button {
+    background-color: #444;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px; /* Added margin for better spacing */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Markdown Preview */
+pre {
+    text-align: left;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    border: 1px solid #444;
+}
+
+/* Headings Styling */
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Improve Input Field Spacing */
+input, textarea {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
